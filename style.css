@@ -1,21 +1,58 @@
-.container {
+.container{
     margin-bottom:100px;
 }
-.orange-bg {
-    background-color:#fceae8;
+.carousel {
+    background-color: #fceae8;
     border-radius:10px;
 }
-.carousel-item {
-    padding:20px 40px;
-}
-.price {
-    color:#ff136f;
-}
-.buy-now-button {
-    background-image: linear-gradient(to bottom,#ff589b 0%, #ff136f 100%);
-    color:#ffffff;
+.carousel-control-prev, .carousel-control-next {
     border:none;
-    border-radius:8px;
-    padding:9px 25px;
-    cursor:pointer;
+    background-color: transparent;
+}
+.button{
+    background-color: #ff4b93;
+    color:#ffffff;
+    padding:10px 30px;
+    border-radius:10px;
+    border:0;
+    outline:0;
+}
+.slide-content{
+    padding-left:60px;
+}
+.cat1,.cat2,.cat3{
+    border-radius:10px;
+    padding:10px 30px;
+}
+.cat1{
+    background-color:orange;
+}
+.cat2{
+    background-color:purple;
+}
+.cat3{
+    background-color:blue;
+}
+.shoes{
+    border-radius: 10px;
+    border:none;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+.card-footer{
+    background-color: #ffffff;
+    border:none;
+}
+.card{
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+#subscribe{
+    height:400px;
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
 }
